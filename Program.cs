@@ -27,9 +27,9 @@ namespace editortxt
      }
      static void Abrir()
      {
-       console.clear();
-       console.WriteLine("Qual o caminho do arquivo");
-       string path= console.ReadLine();
+       Console.Clear();
+       Console.WriteLine("Qual o caminho do arquivo");
+       string path= Console.ReadLine();
        using(var file = new StreamRead(path));// using abre e fecha depois de ler o path
        {
           string text = file.ReadToEnd();
