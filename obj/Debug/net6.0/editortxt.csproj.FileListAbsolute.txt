@@ -1,0 +1,15 @@
+C:\Users\Talento X Esforço\Projeto_EditorDeTextos\bin\Debug\net6.0\editortxt.exe
+C:\Users\Talento X Esforço\Projeto_EditorDeTextos\bin\Debug\net6.0\editortxt.deps.json
+C:\Users\Talento X Esforço\Projeto_EditorDeTextos\bin\Debug\net6.0\editortxt.runtimeconfig.json
+C:\Users\Talento X Esforço\Projeto_EditorDeTextos\bin\Debug\net6.0\editortxt.dll
+C:\Users\Talento X Esforço\Projeto_EditorDeTextos\bin\Debug\net6.0\editortxt.pdb
+C:\Users\Talento X Esforço\Projeto_EditorDeTextos\obj\Debug\net6.0\editortxt.csproj.AssemblyReference.cache
+C:\Users\Talento X Esforço\Projeto_EditorDeTextos\obj\Debug\net6.0\editortxt.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Talento X Esforço\Projeto_EditorDeTextos\obj\Debug\net6.0\editortxt.AssemblyInfoInputs.cache
+C:\Users\Talento X Esforço\Projeto_EditorDeTextos\obj\Debug\net6.0\editortxt.AssemblyInfo.cs
+C:\Users\Talento X Esforço\Projeto_EditorDeTextos\obj\Debug\net6.0\editortxt.csproj.CoreCompileInputs.cache
+C:\Users\Talento X Esforço\Projeto_EditorDeTextos\obj\Debug\net6.0\editortxt.dll
+C:\Users\Talento X Esforço\Projeto_EditorDeTextos\obj\Debug\net6.0\refint\editortxt.dll
+C:\Users\Talento X Esforço\Projeto_EditorDeTextos\obj\Debug\net6.0\editortxt.pdb
+C:\Users\Talento X Esforço\Projeto_EditorDeTextos\obj\Debug\net6.0\editortxt.genruntimeconfig.cache
+C:\Users\Talento X Esforço\Projeto_EditorDeTextos\obj\Debug\net6.0\ref\editortxt.dll
