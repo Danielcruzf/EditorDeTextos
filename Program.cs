@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.IO;
 namespace editortxt
 {
@@ -13,20 +13,33 @@ namespace editortxt
      {  
         Console.Clear();
         Console.WriteLine("selecione uma opção para o editor");
-        Console.WriteLine("1 = ABRIR");
-        Console.WriteLine("2 = EDITAR");
+        Console.WriteLine("1 = ABRIR ARQUIVO");
+        Console.WriteLine("2 = CRIAR NOVO AQUIVO");
         Console.WriteLine("0 = SAIR");
         short op = short.Parse(Console.ReadLine());
           switch(op)
         { 
           case 1: Abrir(); break;
-          case 2: Editar(); break;
+          case 2: Criar(); break;
           case 0: Console.WriteLine("Obrigado por usar nosso aplicativo");Thread.Sleep(2000); Environment.Exit(0); break;
           default: Menu(); break;
         }
      }
-     static void Abrir(){}
-     static void Editar()
+     static void Abrir()
+     {
+       console.clear();
+       console.WriteLine("Qual o caminho do arquivo");
+       string path= console.ReadLine();
+       using(var file = new StreamRead(path));// using abre e fecha depois de ler o path
+       {
+          string text = file.ReadToEnd();
+       }
+       console.WriteLine("");
+       console.ReadLine();
+       Menu();
+
+     }
+     static void Criar()
      {
       Console.Clear();
       Console.WriteLine("Digite seu texto");
@@ -39,7 +52,7 @@ namespace editortxt
         while (Console.ReadKey().Key != ConsoleKey.Escape);//"ReadKey()" enter com qualr tecla ".Key" grava a tecla e console.key.nome da tecla q qro escoler no caso do exemolo foi "escape = Esc"
         Salvar(text);
         
-        }
+      }
 
    static void Salvar(string text)
    { 
@@ -53,7 +66,8 @@ namespace editortxt
     }
       Console.WriteLine($"Arquivo {path} salvo com sucesso");// '$' interploção dentro do string tudo q estiver entre chaves'[]' vaiser retornado
       Console.ReadKey();
-      
+
+
       Menu();
 
 
